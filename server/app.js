@@ -3,7 +3,7 @@ import cors from "cors"
 import { router } from "./routes/user.routes.js";
 const app=express();
 app.use(cors({
-    origin:process.env.frontend || 'http://localhost:3000',
+    origin:'https://groweasy-crm-nine.vercel.app',
     methods:['GET','POST'],
     allowedHeaders:['Content-Type','Authorization'],
 credentials:true
