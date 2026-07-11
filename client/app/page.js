@@ -60,7 +60,7 @@ const handleFile = (selectedFile) => {
     formData.append("csvfile", file);
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/csvimpoter/import`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/csvimporter/import`, {
         method: "POST",
         body: formData,
       });

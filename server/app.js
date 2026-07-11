@@ -14,7 +14,7 @@ app.options('*', cors());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}))
      
-app.use("/api/v1/csvimpoter",router);
+app.use("/api/v1/csvimporter",router);
 app.get('/', (req, res) => {
   res.status(200).json({
     status: "success",
