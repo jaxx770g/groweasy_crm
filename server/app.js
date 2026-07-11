@@ -5,7 +5,7 @@ import { router } from "./routes/user.routes.js";
 const app = express();
 
 
-const allowedOrigin = process.env.FRONTEND_URL || 'http://localhost:3000';
+const allowedOrigin = process.env.FRONTEND_URL || 'https://groweasy-crm-2.onrender.com';
 
 app.use(cors({
   origin: allowedOrigin,
