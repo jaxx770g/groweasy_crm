@@ -3,11 +3,14 @@ import cors from "cors"
 import { router } from "./routes/user.routes.js";
 const app=express();
 app.use(cors({
-    origin:'https://groweasy-crm-nine.vercel.app',
-    methods:['GET','POST'],
-    allowedHeaders:['Content-Type','Authorization'],
-credentials:true
-}))
+  origin: 'https://groweasy-crm-nine.vercel.app',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true,
+}));
+
+
+app.options('*', cors());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}))
      
