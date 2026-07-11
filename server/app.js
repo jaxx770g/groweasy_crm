@@ -12,4 +12,12 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}))
      
 app.use("/api/v1/csvimpoter",router);
+app.get('/', (req, res) => {
+  res.status(200).json({
+    status: "success",
+    message: "GrowEasy AI CSV Importer API is live and running!",
+    timestamp: new Date().toISOString(),
+    environment: process.env.VERCEL ? "Production (Vercel)" : "Local Development"
+  });
+});
 export default app
