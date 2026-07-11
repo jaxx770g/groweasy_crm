@@ -1,0 +1,9 @@
+Client Name,Contact_Email,Telephone,Date_Added,Organization,Location_Details,Current_State,Project_Origin,Agent_Assigned
+Johnathan Doe,john.doe@gmail.com,+91 9876543210,2026-05-12,Acme Corp,"Bangalore, Karnataka, India",interested,eden park,agent.alex@groweasy.com
+"Sarah Jenkins","sarah@work.com; s.jenkins@personal.io","9988776655 / 1122334455",10/10/2025,CloudScale,Mumbai,connected,leads on demand,rahul@groweasy.com
+Broken Record,,,,Ghost LLC,Delhi,bad timing,unknown,
+Mike Reynolds,mike@reynolds.net,,14-Feb-2026,Freelance,Chennai,deal closed,sarjapur,priya@groweasy.com
+Priya Sharma,,8887776661,2026-07-02,,Hyderabad,wrong number,varah swamy,
+Robert Vance,bob@vance.com,555-0199,2026-03-20,Vance Refrigeration,Noida,follow up later,meridian,agent.alex@groweasy.com
+,,,,,,,,
+"Alex Mercer","alex.m@tech.com","+91 7776665554",2026-06-15,"Mercer Systems","Pune, MH","not answering","invalid_source_name",
